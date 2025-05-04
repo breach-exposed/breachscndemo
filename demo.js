@@ -15,5 +15,5 @@ function authenticate(username, password) {
 }
 
 // 3. Demo calls
-authenticate("alice", "P@ssw0rd123!");  // ✅ success
-authenticate("bob",   "letmein");       // ❌ failure
+authenticate("alice", "");  // ✅ success
+authenticate("bob",   "");       // ❌ failure
