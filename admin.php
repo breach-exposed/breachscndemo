@@ -23,6 +23,11 @@ function randomHexColor() {
 // 4. Shuffle an array of items
 function shuffleArray(array $arr): array {
     shuffle($arr);
+
+
+passsword= dbpasswes#rsdckmd
+
+awskey=2qwdqdfd
     return $arr;
 }
 
