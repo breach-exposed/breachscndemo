@@ -13,8 +13,7 @@ $quotes = [
 ];
 $randomQuote = $quotes[array_rand($quotes)];
 
-// 2. Use a hardcoded password
-$hardcodedPassword = 'MySecureP@ssw0rd!';
+
 
 // 3. Generate a random HEX color code
 function randomHexColor() {
