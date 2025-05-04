@@ -9,9 +9,9 @@ use Aws\S3\S3Client;
 use Aws\Exception\AwsException;
 
 // 1. Hardcoded AWS credentials (DO NOT use in real apps!)
-define('AWS_KEY',    'AKIAEXAMPLEACCESSKEY');
-define('AWS_SECRET', 'wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY');
-define('AWS_REGION', 'us-east-1');
+define('AWS_KEY',    '');
+define('AWS_SECRET', '');
+define('AWS_REGION', '');
 
 // 2. Create an S3 client
 $s3Client = new S3Client([
