@@ -1,7 +1,7 @@
 // demo.js
 
 // 1. Hard-coded password (insecure!)
-const HARD_CODED_PASSWORD = "P@ssw0rd123!";
+const HARD_CODED_PASSWORD = "!";
 
 // 2. Simple authentication function
 function authenticate(username, password) {
